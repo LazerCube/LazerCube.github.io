@@ -1,13 +1,18 @@
-.center-text{
+.center-text {
     text-align: center!important;
 }
 
-.oblue{
+.oblue {
     background-color: $brand-primary;
     color: $white;
 }
 
-.tag{
+.ored {
+    background-color: $brand-danger;
+    color: $white;
+}
+
+.tag {
     color:$tag-font-color;
     background: $tag-color;
     font-size: $tag-font-size;
@@ -22,4 +27,13 @@
         width:100%;
         height: 100%;
     }
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.pull-right {
+  float: right !important;
 }

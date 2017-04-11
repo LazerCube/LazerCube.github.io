@@ -1,3 +1,13 @@
 .jumbotron{
     border-bottom: solid 5px $white-darker;
 }
+
+.intro{
+    font-size:$page-intro-font-size;
+    padding: $page-intro-padding;
+}
+
+#page {
+  padding-top: $page-padding;
+  padding-bottom: $page-padding;
+}

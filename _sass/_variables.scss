@@ -158,15 +158,18 @@ $jumbotron-bg:          $gray-light !default;
 
 // page
 
+$page-padding: 60px !default;
+
 $page-intro-padding:   1rem 0       !default;
-$page-intro-font-size: 2rem         !default;
+$page-intro-font-size: 1.85rem         !default;
 
 $page-title-letter-space: 0.125rem  !default;
 $page-title-padding: 1.25rem 0      !default;
 
-$page-title-text-padding: 1rem   !default;
+$section-title-padding: 1rem 1rem 1rem 0rem !default;
 
-$page-title-line-height: 2px        !default;
+$page-title-text-padding: 1rem      !default;
+$page-title-line-height: 1px        !default;
 
 // Images
 
@@ -193,3 +196,22 @@ $article-meta-font-size:    0.95rem     !default;
 // Cards
 
 $card-padding:      0rem    !default;
+
+// Navbar
+
+$navbar-color: $body-color !default;
+
+$navbar-padding-y:  .5rem     !default;
+$navbar-padding-x:  1rem     !default;
+
+$navbar-border-radius: 1rem    !default;
+
+$zindex-navbar: 1030  !default;
+$zindex-navbar-fixed: 1030 !default;
+$zindex-navbar-sticky: 1030 !default;
+
+$navbar-nav-padding: 0 2.5rem;
+
+$navbar-brand-padding-y: .25rem;
+
+$font-size-lg: 1.25rem;

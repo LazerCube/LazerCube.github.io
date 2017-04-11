@@ -16,12 +16,13 @@ exclude:
 
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.lazercube.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 title: Lazercube
 subtitle: Lazer
+name: Elliot Lunness
 email: info@lazercube.com
-description: A responsive site template designed by Lazer Up<br /> and released under the Creative Commons.
+description: A responsive site template designed by Lazer Up and released under the Creative Commons.
 author:
 street_address: 1234 Somewhere Road
 city: Winchester
