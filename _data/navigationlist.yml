@@ -1,0 +1,14 @@
+navigation_brand: <span class="icon-LazerCubeLogo"></span>
+pages:
+
+- title: Home
+  url: /
+
+- title: Projects
+  url: /projects/
+
+- title: Dev
+  url: /dev/
+
+- title: About
+  url: /about/
