@@ -3,7 +3,7 @@ layout: posts
 title: "Asteroid Game"
 category: Projects
 author: Laazer
-tags: Github Python2.7 Pygame
+tags: Test
 summary: This post shows how markdown can be used to create a post on a website.
 image: https://unsplash.it/730/500/?image=315
 ---

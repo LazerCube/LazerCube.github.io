@@ -3,7 +3,7 @@ layout: posts
 title: "Nostra vivamus ante laoreet suspendisse."
 category: Dev
 author: Laazer
-tags: Google-Maps-API-V3 Twitter-Search-API HTML5/CSS3 jQuery/AJAX Bootstrap-3 PHP
+tags: Test
 summary: A follow up post on testing
 ---
 

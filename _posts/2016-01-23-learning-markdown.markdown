@@ -3,7 +3,7 @@ layout: posts
 title: "Welcome to Test!"
 category: Dev
 author: Laazer
-tags: Jekyll HTML5/CSS3 test
+tags: Test
 published: true
 summary: This post shows how markdown can be used to create a post on a website.
 image:  https://unsplash.it/730/500/?image=13
