@@ -99,9 +99,9 @@ code {
 	padding: $code-padding;
 	margin: $code-margin;
 	background-color: $code-background;
-	color: $code-default-color;
-    white-space: nowrap;
-    font-size: $code-font-size;
+	// color: $code-default-color;
+  white-space: nowrap;
+  font-size: $code-font-size;
 
     @include border-radius($border-radius-sm);
 }

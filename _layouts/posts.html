@@ -3,25 +3,56 @@ layout: default
 ---
 
 <div class="post">
-    <header>
-        <h1>{{ page.title }}</h1>
-        <p class="article-meta">
-            {% if page.author %}
-                <span class="meta-cards meta-author" itemprop="author">
-                    <span itemprop="name">{{ page.author }}</span>
-                </span>
-            {% endif %}
-                <span class="meta-cards meta-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                    <span>{{ page.date | date: "%b %-d, %Y" }}</span>
-                </span>
-            {% if page.categories %}
-                <span class="meta-cards meta-category" itemprop="categories">
-                    <span itemprop="category">{{ page.categories }}</span>
-                </span>
-            {% endif %}
-        </p>
-    </header>
-    <body>
+  <div class="post-header">
+    <div class="row">
+      <div class="col-lg-8 col-xs-12">
+        <p class="post-title">{{ page.title }}</p>
+      </div>
+    </div>
+    <div class="row">
+      {% if page.about %}
+      <div class="col-lg-8 col-xs-12">
+          <p class="post-about">
+            {{ page.about }}
+          </p>
+        {% if page.summary %}
+          <p class="post-summary">
+            <strong>Project Summary: </strong> {{ page.summary }}
+          </p>
+        {% endif %}
+      </div>
+      {% endif %}
+      <div class="col-lg-3 offset-lg-1 col-xs-12 post-categories">
+        <ul>
+          {% for item in page.tags %}
+            <li class="text-muted">{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="section-title">
+      <span class="section-line"></span>
+    </div>
+  </div>
+
+  <div>
+    <div class="row">
+      <div class="col-lg-12 col-xs-12">
         {{ content }}
-    </body>
+        <p>
+          <small class="text-muted">{{ page.author }} - {{ page.categories }} - {{ page.date | date: "%b %-d, %Y" }}</small>
+        </p>
+      </div>
+      <!-- <div class="col-lg-3 offset-lg-1">
+        <ul>
+          {% for post in site.posts limit:5 %}
+              </li>{% include post_preview.html %}<li>
+          {% endfor %}
+        </ul>
+      </div> -->
+    </div>
+  </div>
 </div>

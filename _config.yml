@@ -15,7 +15,7 @@ exclude:
   - Gemfile.lock
 
 # Site settings
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.lazercube.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 title: Lazercube
@@ -23,8 +23,6 @@ subtitle: Lazer
 name: Elliot Lunness
 email: info@lazercube.com
 description: A responsive site template designed by Lazer Up and released under the Creative Commons.
-author:
-street_address: 1234 Somewhere Road
 city: Winchester
 country: United Kingdom
 
@@ -32,7 +30,7 @@ image: https://www.placehold.it/730x500
 
 # Social settings
 facebook_url:
-github_url:
+github_url: https://github.com/LazerCube
 gitlab_url:
 googleplus_url:
 instagram_url:

@@ -5,7 +5,7 @@ category: Dev
 author: Laazer
 tags: Test
 published: true
-summary: This post shows how markdown can be used to create a post on a website.
+about: This post shows how markdown can be used to create a post on a website.
 image:  https://unsplash.it/730/500/?image=13
 ---
 
