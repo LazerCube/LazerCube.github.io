@@ -10,4 +10,8 @@
 #page {
   padding-top: $page-padding;
   padding-bottom: $page-padding;
+  @include media-breakpoint-down(sm) {
+    padding-top: ($page-padding / 2);
+    padding-bottom: ($page-padding / 2);
+  }
 }

@@ -1,8 +1,14 @@
 <div class="navbar">
   <div class="container">
-    <a class="navbar-brand" href="/">
-      {{ site.data.navigationlist.navigation_brand }}
-    </a>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggler collapsed" onclick="myFunction()">
+          <span class="icon-list2"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        {{ site.data.navigationlist.navigation_brand }}
+      </a>
+    </div>
+    <div class="navbar-collapse collapse" id='nav-collapse'>
       <ul class="navbar-nav">
         {% for item in site.data.navigationlist.pages %}
           <li class="nav-item {% if item.url == page.url %}active-link{% endif %}">
@@ -10,5 +16,17 @@
           </li>
         {% endfor %}
       </ul>
+    </div>
   </div>
+  <script>
+  function myFunction() {
+    var x = document.getElementById('nav-collapse');
+    if (x.classList.contains('collapse')) {
+      x.classList.remove('collapse');
+
+    } else {
+      x.classList.add('collapse');
+    }
+  }
+  </script>
 </div>
