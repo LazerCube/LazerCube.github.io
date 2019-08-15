@@ -5,7 +5,7 @@ layout: post_index
 {% for post in site.posts %}
   {% for tag in post.tags %}
     {% if tag == page.tag %}
-      {% include post_preview.html %}
+      {% include post_preview.html size='m' %}
     {% endif %}
   {% endfor %}
 {% endfor %}

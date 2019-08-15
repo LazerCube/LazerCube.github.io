@@ -10,62 +10,82 @@ layout: default
   </div>
 </div>
 
-<div class="row">
-  <div class="col-lg-12 col-xs-12">
-    <div class="section-title">
-        <h3 class="section-title-left">Recent Projects</h3>
-        <span class="section-line"></span>
-        <span class="section-title-right"><a href="/projects" class="btn" role="button">View More &gt;</a></span>
-    </div>
-  </div>
-</div>
-
-<div class="row">
-  {% for post in site.categories.Projects limit:4 %}
-      {% include post_preview.html %}
-  {% endfor %}
-</div>
-
-<div class="row">
-  <div class="col-lg-12 col-xs-12">
-    <div class="section-title">
-      <h3 class="section-title-left">Newest Dev Posts</h3>
-      <span class="section-line"></span>
-      <span class="section-title-right"><a href="/dev" class="btn" role="button">Read More &gt;</a></span>
-    </div>
-  </div>
-</div>
-
-<div class="row">
-  {% for post in site.categories.Dev limit:2 %}
-      {% include post_preview.html %}
-  {% endfor %}
-</div>
-
-<div class="row">
-  <div class="col-lg-12 col-xs-12">
-    <div class="section-title">
-      <h3 class="section-title-left">Work in Progress</h3>
-      <span class="section-line"></span>
-      <span class="section-title-right"><a href="#" class="btn" role="button">Work in Progress &gt;</a></span>
-    </div>
-  </div>
-</div>
-
-<div class="row">
-  <article class="col-lg-6 col-xs-12 overview">
-    <div class="thumb-image">
-        <a href="#">
-            <div class="thumb-overlay">
-                <div class="thumb-container thumb-container-full center-text">
-                    <h1>Hello, World!</h1>
-                <p>
-                    Nam faucibus dignissim vestibulum tortor sapien habitasse parturient velit vel ad nam sed.
-                </p>
-                </div>
+<section>
+    <div class="row">
+        <div class="col-lg-12 col-xs-12">
+            <div class="section-title">
+                <h3 class="section-title-left">Recent Projects</h3>
+                <span class="section-line"></span>
+                <span class="section-title-right"><a href="/projects" class="btn" role="button">View More &gt;</a></span>
             </div>
-            <img src="https://unsplash.it/730/500/?image=931" alt="PlaceHolder">
-        </a>
+        </div>
     </div>
-  </article>
-</div>
+    <div class="row">
+        {% comment %} Have to assign like this inorder to get object in include...{% endcomment %}
+        {% assign  current=site.categories.Projects[0] %}
+        {% include post_preview.html post=current size='m' %}
+
+        {% assign  current=site.categories.Projects[1] %}
+        {% include post_preview.html post=current size='m' %}
+    </div>
+    <div class="row">
+        {% assign  current=site.categories.Projects[1] %}
+        {% include post_preview.html post=current size='m' %}
+
+        {% assign  current=site.categories.Projects[0] %}
+        {% include post_preview.html post=current size='m' %}
+    </div>
+</section>
+
+<section>
+    <div class="row">
+    <div class="col-lg-12 col-xs-12">
+        <div class="section-title">
+        <h3 class="section-title-left">Newest Dev Posts</h3>
+        <span class="section-line"></span>
+        <span class="section-title-right"><a href="/dev" class="btn" role="button">Read More &gt;</a></span>
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+    {% for post in site.categories.Dev limit:3 %}
+        {% include post_preview.html post=post size='xs' %}
+    {% endfor %}
+    </div>
+</section>
+
+<section>
+    <div class="row">
+    <div class="col-lg-12 col-xs-12">
+        <div class="section-title">
+        <h3 class="section-title-left">Work in Progress</h3>
+        <span class="section-line"></span>
+        <span class="section-title-right"><a href="#" class="btn" role="button">Work in Progress &gt;</a></span>
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+        <article class="col-lg-12 col-xs-12 overview">
+            <div class="thumb-image">
+                <a href="#" 
+                data-href="/assets/img/posts/asteroid/asteroid_game_over"
+                data-srcset="/assets/img/posts/asteroid/asteroid_game_over_half.jpg 540w, /assets/img/posts/asteroid/asteroid_game_over.jpg 1080w"
+                data-sizes="100vw"
+                class="progressive replace">
+                    <div class="thumb-overlay">
+                        <div class="thumb-container thumb-container-full center-text">
+                            <h1>Hello, World!</h1>
+                        <p>
+                            Nam faucibus dignissim vestibulum tortor sapien habitasse parturient velit vel ad nam sed.
+                        </p>
+                        </div>
+                    </div>
+                    <img src="/assets/img/posts/asteroid/asteroid_game_over_preview.jpg" class="preview" alt="image" />
+                </a>
+            </div>
+        </article>
+    </div>
+
+</section>

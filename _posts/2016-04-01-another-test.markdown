@@ -5,7 +5,9 @@ category: Projects
 author: Laazer
 tags: Test
 about: This post shows how markdown can be used to create a post on a website.
-image: https://unsplash.it/730/500/?image=315
+image: /assets/img/posts/asteroid/asteroid_game_over.jpg
+image_1x: /assets/img/posts/asteroid/asteroid_game_over_half.jpg 540w
+image_preview: /assets/img/posts/asteroid/asteroid_game_over_preview.jpg
 ---
 
 And this is a Second Level Header
