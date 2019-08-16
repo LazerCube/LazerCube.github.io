@@ -7,8 +7,8 @@ pages:
 - title: Projects
   url: /projects/
 
-- title: Dev
-  url: /dev/
+- title: Dev-Blog
+  url: /Dev/
 
 - title: About
   url: /about/
