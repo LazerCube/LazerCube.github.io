@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Programming Languages highlighting"
-category: Dev
+category: Blog
 author: Laazer
 tags: Test
 published: true

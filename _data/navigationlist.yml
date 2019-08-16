@@ -5,10 +5,10 @@ pages:
   url: /
 
 - title: About Me
-url: /about/
+  url: /about/
 
 - title: Projects
   url: /projects/
 
-- title: Dev-Blog
-  url: /Dev/
+- title: Blog
+  url: /blog/

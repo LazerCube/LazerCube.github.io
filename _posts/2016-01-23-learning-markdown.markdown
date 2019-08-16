@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Welcome to Test!"
-category: Dev
+category: Blog
 author: Laazer
 tags: Test
 published: true
