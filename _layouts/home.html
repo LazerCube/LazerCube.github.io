@@ -5,7 +5,14 @@ layout: default
 <div class="row">
   <div class="col-lg-10 col-xs-12">
     <div class="intro">
-      {{ content }}
+        {{ content }}
+        <div class="socials">
+            <ul>
+                <li><a href=""><span class="icon icon-linkedin"></span>LinkedIn</a></li>
+                <li><a href="https://github.com/LazerCube"><span class="icon icon-github"></span>Github</a></li>
+                <li><a href=""><span class="icon icon-file-text"></span>Resume</a></li>
+            </ul>
+        </div>
     </div>
   </div>
 </div>
@@ -20,21 +27,23 @@ layout: default
             </div>
         </div>
     </div>
-    <div class="row">
-        {% comment %} Have to assign like this inorder to get object in include...{% endcomment %}
-        {% assign  current=site.categories.Projects[0] %}
-        {% include post_preview.html post=current size='m' %}
+    {% if site.categories.Projects != nil %}
+        {% for current_post in site.categories.Projects limit:4 %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
 
-        {% assign  current=site.categories.Projects[1] %}
-        {% include post_preview.html post=current size='m' %}
-    </div>
-    <div class="row">
-        {% assign  current=site.categories.Projects[1] %}
-        {% include post_preview.html post=current size='m' %}
+            {% if loopindex  == 1 or forloop.first %}
+                <div class="row">   
+            {% endif %}
 
-        {% assign  current=site.categories.Projects[0] %}
-        {% include post_preview.html post=current size='m' %}
-    </div>
+            {% include post_preview.html post=current_post size='m' %}
+
+            {% if loopindex != 1 or forloop.last %}
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% else %}
+        <p>Hmmm, looks like theres nothing here at the moment.</p>
+    {% endif %}
 </section>
 
 <section>

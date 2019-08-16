@@ -2,10 +2,16 @@
 layout: post_index
 ---
 
-{% for post in site.posts %}
-  {% for tag in post.tags %}
-    {% if tag == page.tag %}
-      {% include post_preview.html size='m' %}
+{% for current_post in site.tags[page.tag]  %}
+    {% assign loopindex = forloop.index | modulo: 2 %}
+
+    {% if loopindex  == 1 or forloop.first %}
+        <div class="row">   
     {% endif %}
-  {% endfor %}
+
+    {% include post_preview.html post=current_post size='m' %}
+
+    {% if loopindex != 1 or forloop.last %}
+        </div>
+    {% endif %}
 {% endfor %}

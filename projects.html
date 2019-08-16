@@ -3,6 +3,16 @@ layout: post_index
 title: Projects
 ---
 
-{% for post in site.categories.Projects %}
-  {% include post_preview.html size='m' %}
+{% for current_post in site.categories.Projects  %}
+    {% assign loopindex = forloop.index | modulo: 2 %}
+
+    {% if loopindex  == 1 or forloop.first %}
+        <div class="row">   
+    {% endif %}
+
+    {% include post_preview.html post=current_post size='m' %}
+
+    {% if loopindex != 1 or forloop.last %}
+        </div>
+    {% endif %}
 {% endfor %}
