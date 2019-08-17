@@ -2,12 +2,12 @@
 layout: posts
 title: Portfolio
 category: Projects
-author: Laazer
+author: Elliot
 tags: Jekyll Sass
 summary: A follow up post on testing.
 about: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-image:  https://unsplash.it/730/500/?image=76
-image_preview: https://unsplash.it/73/50/?blur=2?image=76
+image:  /assets/img/posts/portfoilo/portfolio_thumnail.png
+image_preview: /assets/img/posts/portfoilo/portfolio_thumnail_preview.png
 ---
 
 Suspendisse eros ultricies hac sem eleifend ante a fermentum lorem bibendum dui ullamcorper ad nulla class sagittis non commodo aliquet quam. Luctus scelerisque dolor imperdiet eleifend eget ligula bibendum curabitur scelerisque ullamcorper sociosqu consectetur adipiscing euismod vestibulum sociosqu pulvinar mi adipiscing commodo mi et curae. At id ipsum curabitur auctor arcu luctus sapien aenean suspendisse phasellus ullamcorper adipiscing magna habitasse risus himenaeos sed nam suspendisse. Lacinia suspendisse scelerisque dolor a diam dui tristique accumsan felis a conubia dis a parturient adipiscing a parturient ut montes cursus sociis a per ullamcorper.

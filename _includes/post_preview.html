@@ -33,18 +33,21 @@
             </div>
         </div>
 
-        <a href="{{ post.url | prepend: site.baseurl }}"
+        <a href="{{ post.url | prepend: site.baseurl }}" data-href="{{ post.image }}" class="progressive replace">
+            <img src="{{ post.image_preview }}" class="preview" alt="image" />
+        </a>
+
+        <!-- <a href="{{ post.url | prepend: site.baseurl }}"
         {% if include.lazy != false %}
         data-href="{{ post.image }}"
         data-srcset="{% if post.image_1x %}{{ post.image_1x }} ,{% endif %}{% if post.image_2x %}{{ post.image_2x }}, {% endif %}{{ post.image }}"
-        data-sizes="(max-width: 40em) 100vw, 50vw"
         class="progressive replace">
             <img src="{{ post.image_preview }}" class="preview" 
         {% else %}
             ><img src="{{ post.image }}" 
         {% endif %}
             alt="image" />
-        </a>
+        </a> -->
     </div>
 
     <header>

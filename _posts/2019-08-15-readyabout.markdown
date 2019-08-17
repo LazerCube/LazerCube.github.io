@@ -1,15 +1,13 @@
 ---
 layout: posts
-title: ReadyAbout.co.uk
+title: Ready About
 category: Projects
 author: Elliot
 tags: Django Python Docker Rabbitmq Nginx
 about: Originally started as a college python project to develop my programming skills but has grown to become a project that I love coming back and improving on. It was used to display my ability to work through a complex project and to learn something new, in this case the graphics libary Pygame.
 summary: A simple asteroid game written in Python 2.7 using the graphics libary Pygame.
-image: /assets/img/posts/readyabout/thumnail/readyabout_home.jpg
-image_1x: /assets/img/posts/readyabout/thumnail/readyabout_home_1x.jpg 320w
-image_2x: /assets/img/posts/readyabout/thumnail/readyabout_home_1x.jpg 640w
-image_preview: /assets/img/posts/readyabout/thumnail/readyabout_home_low.jpg
+image: /assets/img/posts/readyabout/readyabout_thumbnail.png
+image_preview: /assets/img/posts/readyabout/readyabout_thumbnail_preview.png
 ---
 
 ## Project
