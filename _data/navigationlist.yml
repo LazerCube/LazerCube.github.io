@@ -4,11 +4,11 @@ pages:
 - title: Home
   url: /
 
+- title: About Me
+  url: /about/
+
 - title: Projects
   url: /projects/
 
-- title: Dev
-  url: /dev/
-
-- title: About
-  url: /about/
+- title: Blog
+  url: /blog/

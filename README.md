@@ -3,8 +3,14 @@ Lazercube.com
 
 > A Jekyll Project
 
-Build:
-`bundle exec jekyll serve --host 0.0.0.0`
+Quick-start Install:
+
+```shell  
+gem install bundler jekyll
+bundle install
+bundle exec jekyll serve
+# => Now browse to http://localhost:4000  
+```
 
 ### Lazercube.com Todo
  - [x] Home page

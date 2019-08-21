@@ -1,12 +1,13 @@
 ---
 layout: posts
 title: "Programming Languages highlighting"
-category: Dev
+category: Blog
 author: Laazer
 tags: Test
 published: true
 about: This post shows how markdown can be used to create a post on a website.
 image:  https://unsplash.it/730/500/?image=391
+image_preview: https://unsplash.it/73/50/?blur=2?image=391
 ---
 
 #   Html

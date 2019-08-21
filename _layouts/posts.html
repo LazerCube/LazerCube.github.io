@@ -6,7 +6,7 @@ layout: default
   <div class="post-header">
     <div class="row">
       <div class="col-lg-8 col-xs-12">
-        <p class="post-title">{{ page.title }}</p>
+        <h2 class="post-title">{{ page.title }}</h2>
       </div>
     </div>
     <div class="row">
@@ -23,7 +23,7 @@ layout: default
       </div>
       {% endif %}
       <div class="col-lg-3 offset-lg-1 col-xs-12 post-categories">
-        <ul>
+        <ul class="list-unstyled">
           {% for item in page.tags %}
             <li class="text-muted">{{ item }}</li>
           {% endfor %}
@@ -46,13 +46,6 @@ layout: default
           <small class="text-muted">{{ page.author }} - {{ page.categories }} - {{ page.date | date: "%b %-d, %Y" }}</small>
         </p>
       </div>
-      <!-- <div class="col-lg-3 offset-lg-1">
-        <ul>
-          {% for post in site.posts limit:5 %}
-              </li>{% include post_preview.html %}<li>
-          {% endfor %}
-        </ul>
-      </div> -->
     </div>
   </div>
 </div>

@@ -69,10 +69,12 @@ img{
 // ul/Li
 //
 
-ul{
-    list-style: none;
-    margin:0px;
-    padding:0px;
+ul {
+    &.list-unstyled {
+        list-style: none;
+        margin:0px;
+        padding:0px;
+    }
 }
 
 //H1

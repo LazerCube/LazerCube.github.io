@@ -1,9 +1,9 @@
 ---
 layout: post_index
-title: Projects
+title: Blog
 ---
 
-{% for current_post in site.categories.Projects  %}
+{% for current_post in site.categories.Blog  %}
     {% assign loopindex = forloop.index | modulo: 2 %}
 
     {% if loopindex  == 1 or forloop.first %}
