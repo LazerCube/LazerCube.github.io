@@ -14,6 +14,7 @@ about: Originally started as a college python project to develop my programming 
 summary: A simple asteroid game written in Python 2.7 using the graphics libary Pygame.
 image: /assets/img/posts/readyabout/readyabout_thumbnail.png
 image_preview: /assets/img/posts/readyabout/readyabout_thumbnail_preview.png
+source: closed
 ---
 
 ## Project

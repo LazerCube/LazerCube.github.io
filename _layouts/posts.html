@@ -12,24 +12,30 @@ layout: default
     <div class="row">
       {% if page.about %}
       <div class="col-lg-8 col-xs-12">
+          {% if page.link or page.source %}
+            <ul class="post-links">
+              {% if page.link %}
+              <li><span class="icon icon-eye"></span> <a href="http://www.{{ page.link }}" >{{ page.link }}</a></li>  
+              {% endif %}
+
+              {% if page.source == "closed" %}
+                <li><span class="icon icon-folder"></span> Closed Source</li>
+              {% elsif page.source %}
+                  <li><span class="icon icon-folder-open"></span> <a href="{{ page.source }}" >Source Code</a></li>
+              {% endif %}
+            </ul>
+          {% endif %}
+
           <p class="post-about">
             {{ page.about }}
           </p>
-        {% if page.summary %}
-          <p class="post-summary">
-            <strong>Project Summary: </strong> {{ page.summary }}
-          </p>
-          {% if page.live_link %}
-            <span><strong>See live: </strong><a href="{{ page.live_link }}" class="text-muted">{{ page.live_link }}</a></span>
+
+          {% if page.summary %}
+            <p class="post-summary">
+              <strong>Project Summary: </strong> {{ page.summary }}
+            </p>
           {% endif %}
-          <p class="text-muted"><strong>Source: </strong>
-          {% if page.source %}
-            <a href="{{ page.source }}" >{{ page.source }} <span class="icon icon-folder-open"></span></a>
-          {% else %}
-            <span>Closed source <span class="icon icon-folder"></span></span>
-          {% endif %}
-          </p>
-        {% endif %}
+
       </div>
       {% endif %}
       <div class="col-lg-3 offset-lg-1 col-xs-12 post-categories">

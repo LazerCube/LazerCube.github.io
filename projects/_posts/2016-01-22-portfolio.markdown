@@ -8,6 +8,8 @@ tags:
 - Web
 summary: A follow up post on testing.
 about: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+source: https://github.com/LazerCube/lazercube.github.io
+link: lazercube.com
 image:  /assets/img/posts/portfoilo/portfolio_thumnail.png
 image_preview: /assets/img/posts/portfoilo/portfolio_thumnail_preview.png
 ---

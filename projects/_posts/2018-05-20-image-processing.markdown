@@ -9,6 +9,7 @@ about: Originally started as a college python project to develop my programming 
 summary: A simple asteroid game written in Python 2.7 using the graphics libary Pygame.
 image: /assets/img/posts/image_filters/image_filter_thumbnail.jpg
 image_preview: /assets/img/posts/image_filters/image_filter_thumbnail_preview.jpg
+source: https://github.com/LazerCube/experiment_image_filters
 ---
 
 ## Project
