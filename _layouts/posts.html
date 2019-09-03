@@ -19,6 +19,16 @@ layout: default
           <p class="post-summary">
             <strong>Project Summary: </strong> {{ page.summary }}
           </p>
+          {% if page.live_link %}
+            <span><strong>See live: </strong><a href="{{ page.live_link }}" class="text-muted">{{ page.live_link }}</a></span>
+          {% endif %}
+          <p class="text-muted"><strong>Source: </strong>
+          {% if page.source %}
+            <a href="{{ page.source }}" >{{ page.source }} <span class="icon icon-folder-open"></span></a>
+          {% else %}
+            <span>Closed source <span class="icon icon-folder"></span></span>
+          {% endif %}
+          </p>
         {% endif %}
       </div>
       {% endif %}

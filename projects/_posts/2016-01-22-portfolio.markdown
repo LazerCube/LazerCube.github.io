@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Portfolio
+title: Portfolio Website
 author: Elliot
 tags:
 - Jekyll
