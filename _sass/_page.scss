@@ -80,13 +80,17 @@
       font-size: $article-meta-font-size;
       margin-top: 0;
 
-      .meta-cards{
+      .meta-cards {
         padding: 0 10px 0 10px;
         border-right: 1px solid $white-darker;
       }
 
-      .meta-author{
+      .meta-author {
          padding-left: 0px;
+      }
+
+      .meta-category {
+        text-transform: capitalize;
       }
     }
   }

@@ -1,22 +1,17 @@
 ---
 layout: posts
-title: Social network
-category: Projects
+title: Ready About
 author: Elliot
-tags:
-- Django
-- Python
-summary: Lorem Ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-about: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-image: https://unsplash.it/1080/600/?image=315
-image_preview: https://unsplash.it/108/60/?blur=2?image=315
+tags: Django Python Docker Rabbitmq Nginx
+about: Originally started as a college python project to develop my programming skills but has grown to become a project that I love coming back and improving on. It was used to display my ability to work through a complex project and to learn something new, in this case the graphics libary Pygame.
+summary: A simple asteroid game written in Python 2.7 using the graphics libary Pygame.
+image: /assets/img/posts/readyabout/readyabout_thumbnail.png
+image_preview: /assets/img/posts/readyabout/readyabout_thumbnail_preview.png
 ---
 
 ## Project
 
 Suspendisse eros ultricies hac sem eleifend ante a fermentum lorem bibendum dui ullamcorper ad nulla class sagittis non commodo aliquet quam. Luctus scelerisque dolor imperdiet eleifend eget ligula bibendum curabitur scelerisque ullamcorper sociosqu consectetur adipiscing euismod vestibulum sociosqu pulvinar mi adipiscing commodo mi et curae. At id ipsum curabitur auctor arcu luctus sapien aenean suspendisse phasellus ullamcorper adipiscing magna habitasse risus himenaeos sed nam suspendisse. Lacinia suspendisse scelerisque dolor a diam dui tristique accumsan felis a conubia dis a parturient adipiscing a parturient ut montes cursus sociis a per ullamcorper. Suspendisse eros ultricies hac sem eleifend ante a fermentum lorem bibendum dui ullamcorper ad nulla class sagittis non commodo aliquet quam. Luctus scelerisque dolor imperdiet eleifend eget ligula bibendum curabitur scelerisque ullamcorper sociosqu consectetur adipiscing euismod vestibulum sociosqu pulvinar mi adipiscing commodo mi et curae. At id ipsum curabitur auctor arcu luctus sapien aenean suspendisse phasellus ullamcorper adipiscing magna habitasse risus himenaeos sed nam suspendisse. Lacinia suspendisse scelerisque dolor a diam dui tristique accumsan felis a conubia dis a parturient adipiscing a parturient ut montes cursus sociis a per ullamcorper.
-
-![alt text][image_1]
 
 ## Difficulties
 
@@ -27,13 +22,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras sed felis eget velit aliquet sagittis id. Velit sed ullamcorper morbi tincidunt ornare massa eget. Faucibus vitae aliquet nec ullamcorper sit amet. Habitant morbi tristique senectus et netus et malesuada. Risus in hendrerit gravida rutrum quisque non tellus. Mauris nunc congue nisi vitae suscipit tellus mauris. Velit egestas dui id ornare arcu. Massa sapien faucibus et molestie ac feugiat sed lectus. Felis donec et odio pellentesque diam volutpat. Ipsum a arcu cursus vitae congue mauris. Praesent elementum facilisis leo vel fringilla est. Dapibus ultrices in iaculis nunc sed. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Ornare suspendisse sed nisi lacus sed viverra tellus in. Mollis nunc sed id semper risus in hendrerit gravida. Enim ut sem viverra aliquet eget sit. Sed id semper risus in hendrerit gravida rutrum.
 
-![alt text][image_2]
-
 Vitae semper quis lectus nulla at. Semper viverra nam libero justo laoreet sit. Aliquam eleifend mi in nulla. Posuere ac ut consequat semper viverra nam libero justo laoreet. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Pharetra magna ac placerat vestibulum. Massa sed elementum tempus egestas sed. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Vivamus arcu felis bibendum ut tristique et egestas quis ipsum. Porta nibh venenatis cras sed felis eget velit aliquet. Mi eget mauris pharetra et ultrices.
 
 ## Notable Features
 
 * **feature** feature information
-
-[image_1]: https://unsplash.it/1140/200/?image=101
-[image_2]: https://unsplash.it/1140/500/?image=69

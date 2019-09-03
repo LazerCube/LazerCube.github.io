@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: Portfolio
-category: Projects
 author: Elliot
 tags: Jekyll Sass
 summary: A follow up post on testing.
