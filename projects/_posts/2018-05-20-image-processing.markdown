@@ -1,19 +1,14 @@
 ---
 layout: posts
-title: Ready About
+title: Image processing (simple filters)
 author: Elliot
-tags: 
-- Django 
-- Python
-- CSS
-- Docker
-- Rabbitmq
-- Nginx
-- Web
+tags:
+- Java
+- JavaFX
 about: Originally started as a college python project to develop my programming skills but has grown to become a project that I love coming back and improving on. It was used to display my ability to work through a complex project and to learn something new, in this case the graphics libary Pygame.
 summary: A simple asteroid game written in Python 2.7 using the graphics libary Pygame.
-image: /assets/img/posts/readyabout/readyabout_thumbnail.png
-image_preview: /assets/img/posts/readyabout/readyabout_thumbnail_preview.png
+image: /assets/img/posts/image_filters/image_filter_thumbnail.jpg
+image_preview: /assets/img/posts/image_filters/image_filter_thumbnail_preview.jpg
 ---
 
 ## Project
