@@ -10,8 +10,8 @@ tags:
 - Rabbitmq
 - Nginx
 - Web
-about: Originally started as a college python project to develop my programming skills but has grown to become a project that I love coming back and improving on. It was used to display my ability to work through a complex project and to learn something new, in this case the graphics libary Pygame.
-summary: A simple asteroid game written in Python 2.7 using the graphics libary Pygame.
+about: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+summary: Lorem Ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
 image: /assets/img/posts/readyabout/readyabout_thumbnail.png
 image_preview: /assets/img/posts/readyabout/readyabout_thumbnail_preview.png
 source: closed
@@ -24,7 +24,6 @@ Suspendisse eros ultricies hac sem eleifend ante a fermentum lorem bibendum dui 
 ## Difficulties
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 
 ## Solutions
 

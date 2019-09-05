@@ -24,7 +24,6 @@ Suspendisse eros ultricies hac sem eleifend ante a fermentum lorem bibendum dui 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-
 ## Solutions
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras sed felis eget velit aliquet sagittis id. Velit sed ullamcorper morbi tincidunt ornare massa eget. Faucibus vitae aliquet nec ullamcorper sit amet. Habitant morbi tristique senectus et netus et malesuada. Risus in hendrerit gravida rutrum quisque non tellus. Mauris nunc congue nisi vitae suscipit tellus mauris. Velit egestas dui id ornare arcu. Massa sapien faucibus et molestie ac feugiat sed lectus. Felis donec et odio pellentesque diam volutpat. Ipsum a arcu cursus vitae congue mauris. Praesent elementum facilisis leo vel fringilla est. Dapibus ultrices in iaculis nunc sed. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Ornare suspendisse sed nisi lacus sed viverra tellus in. Mollis nunc sed id semper risus in hendrerit gravida. Enim ut sem viverra aliquet eget sit. Sed id semper risus in hendrerit gravida rutrum.
