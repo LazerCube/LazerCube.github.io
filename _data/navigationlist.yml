@@ -10,5 +10,8 @@ pages:
 - title: Projects
   url: /projects/
 
+- title: Artwork
+  url: /artwork/
+
 - title: Blog
   url: /blog/
