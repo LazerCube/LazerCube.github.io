@@ -54,14 +54,17 @@ layout: default
     </div>
   </div>
 
-  <div>
-    <div class="row">
-      <div class="col-lg-12 col-xs-12">
-        {{ content }}
-        <p>
-          <small class="text-muted">{{ page.author }} - {{ page.categories }} - {{ page.date | date: "%b %-d, %Y" }}</small>
-        </p>
-      </div>
+  <div class="row">
+    <div class="col-xs-12">
+      {{ content }}
     </div>
+
+    {% if page.author or page.categories or page.date%}
+    <div class="col-xs-12">
+      <p>
+        <small class="text-muted">{% if page.author %}{{ page.author }} - {% endif%}{% if page.categories %}{{ page.categories }}{% endif %}{% if page.date %} - {{ page.date | date: "%b %-d, %Y" }}{% endif %}</small>
+      </p>
   </div>
+  {% endif %}
+
 </div>
