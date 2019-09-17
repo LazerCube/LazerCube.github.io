@@ -48,3 +48,9 @@
 
     }
 }
+
+.post-img {
+    position: relative;
+    margin: 2rem;
+    @include shadow();
+}

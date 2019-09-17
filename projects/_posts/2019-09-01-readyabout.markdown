@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Ready About (WIP)
+title: ReadyAbout (WIP)
 author: Elliot
 tags: 
 - Django 
@@ -31,10 +31,14 @@ So I decided to create ReadyAbout.com, A invite only service that allows members
 
 ## Difficulties And Solutions (WIP)
 
-- Time Management – Trello, Agile, [More information on Trello structure](https://www.flowji.com/using-trello-to-manage-your-website-project/)
-- Django-Summernote - XSS Exploit.
-- Scheduling tasks for promotions – Rambitmq + Celery
-- API System – Failed original design. Tried to create a generic system to handle any API and map to fields in my database. Switched to manually handling mapping of an API.
+### Time Management and MVP
+
+One of the main lessons I’ve learnt during the duration of this project is how important it is to manage my time and what to spend my time on. At the start of the project I kept all my ideas, features and to-do list in my head which caused the project to feel overwhelming, leading to months of very little progress. I’d spend weeks working on tangent ideas for the project but never really got any closer to having a finished product. To solve this I’ve switched to using a simple Trello board to keep track of the key tasks that I need to-do in order to get the product to market and keep me on track.
+
+<img class="post-img" src="/assets/img/posts/readyabout/trello-screenshot.jpg">
+
+Since Implementing this change I’ve seen my productivity increase dramatically and progress towards getting a finished product steadily getting closer.
+
 
 ## Notable Features
 
@@ -53,3 +57,9 @@ So I decided to create ReadyAbout.com, A invite only service that allows members
 - **Mutiple docker configs** - For production and development
 - **Modern production Stack** - Ngnix + Gunicorn + Postgres
 - **Custom django admin theme**
+
+## Screenshots
+
+<img  class="post-img" src="/assets/img/posts/readyabout/home-dev-screenshot.png">
+<img  class="post-img" src="/assets/img/posts/readyabout/boat-list-old-screenshot.png">
+<img  class="post-img" src="/assets/img/posts/readyabout/boat-detail-dev-screenshot.png">
