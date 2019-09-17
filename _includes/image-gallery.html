@@ -12,8 +12,8 @@
             <div class="col-lg-3 col-md-4 col-sm-6 center-text">
                 <a href="{{ file.path }}" title="{{ filename }}">
                     <img class="gallery-img"
-                    src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" title="{{ filename }}" />
-                    <span>{{ filename | capitalize }}</span>
+                    src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ file.path }}&w=400&h=400&output=jpg&q=85&t=square&fit=cover" alt="{{ filename }}" title="{{ filename }}" />
+                    <!-- <span>{{ filename | capitalize }}</span> -->
                 </a>
             </div>
             {% endif %}
