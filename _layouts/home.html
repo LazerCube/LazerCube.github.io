@@ -46,7 +46,7 @@ layout: default
             {% endif %}
         {% endfor %}
     {% else %}
-        <p>Hmmm, looks like theres nothing here at the moment.</p>
+        <p class="center-text" style="margin: 4rem 0;"><b>Hmmm,</b> looks like theres nothing here at the moment.</p>
     {% endif %}
 </section>
 
@@ -62,9 +62,13 @@ layout: default
     </div>
 
     <div class="row">
-    {% for post in site.categories.blog limit:3 %}
-        {% include post_preview.html post=post size='xs' %}
-    {% endfor %}
+    {% if site.categories.blog != nil %}
+        {% for post in site.categories.blog limit:3 %}
+            {% include post_preview.html post=post size='xs' %}
+        {% endfor %}
+    {% else %}
+        <p class="center-text" style="margin: 4rem 0;"><b>Hmmm,</b> looks like theres nothing here at the moment.</p>
+    {% endif %}
     </div>
 </section>
 
