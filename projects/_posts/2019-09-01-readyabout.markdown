@@ -10,6 +10,7 @@ tags:
 - Rabbitmq
 - Nginx
 - Web
+published: false
 about: Created to give small rental boatyards around the UK a simple platform to advertise their boats against others and to give them metrics and marketing information in order to help them increase their holiday bookings.
 summary: Referral based boat rental advertising and marketing system.
 image: /assets/img/posts/readyabout/readyabout_thumbnail.png
