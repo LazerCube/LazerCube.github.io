@@ -12,7 +12,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 center-text">
                 <a href="{{ file.path }}" title="{{ filename }}">
                     <img class="gallery-img"
-                    src="{% if site.host != '127.0.0.1' %}//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square{% else %}https://via.placeholder.com/300{% endif %}" alt="{{ filename }}" title="{{ filename }}" />
+                    src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" title="{{ filename }}" />
                     <span>{{ filename | capitalize }}</span>
                 </a>
             </div>
