@@ -11,4 +11,4 @@ I'm a full stack web developer currently living and working in Hampshire. On thi
 
 Check out my Github profile!
 
-You can see some of the things I've worked on over at my [project page](/Projects) and my [Github](https://github.com/LazerCube).
+You can see some of the things I've worked on over at my [project page](/projects/) and my [Github](https://github.com/LazerCube).
