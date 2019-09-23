@@ -1,0 +1,7 @@
+<!-- <img class="{{ img_class }}" src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ img_path | default: '#' }}&w=400&h=400&output=jpg&q=85&t=square&fit=cover" alt="{{ img_name | default: 'alt text' }}" title="{{ img_name | default 'Image title' }}" />
+
+<a href="{{ file.path }}" title="{{ filename }}"></a> -->
+
+<a href="{{ link_url | prepend: site.baseurl | default: '#' }}" data-href="{% include get_image_url.html %}" alt="{{ img_name | default: 'alt text' }}" title="{{ img_name | default 'Image title' }}" class="progressive replace {{ img_class }}">
+    <img src="{% include get_image_url.html get_params='&w=50&h=50&output=jpg&q=85&t=square&fit=coverblur=5' %}" />
+</a>
