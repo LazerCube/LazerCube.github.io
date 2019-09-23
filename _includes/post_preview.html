@@ -22,7 +22,7 @@
                 <ul>
                     {% for tag in post.tags %}
                         <li class="tag">
-                            <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">
+                            <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;" rel="canonical">
                                 <span>
                                     {{ tag }}
                                 </span>
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <a href="{{ post.url | prepend: site.baseurl }}" data-href="{{ post.image }}" class="progressive replace">
+        <a href="{{ post.url | prepend: site.baseurl }}" data-href="{{ post.image }}" class="progressive replace" rel="canonical">
             <img src="{{ post.image_preview }}" class="preview" alt="image" />
         </a>
 
@@ -52,7 +52,7 @@
 
     <header>
         <h2>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a href="{{ post.url | prepend: site.baseurl }}" rel="canonical">{{ post.title }}</a>
         </h2>
         <p class="article-meta">
             {% if post.author %}

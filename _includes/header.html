@@ -12,7 +12,7 @@
       <ul class="navbar-nav">
         {% for item in site.data.navigationlist.pages %}
           <li class="nav-item {% if item.url == page.url %}active-link{% endif %}">
-            <a class="nav-link" href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+            <a class="nav-link" href="{{ item.url }}" alt="{{ item.title }}" rel="canonical">{{ item.title }}</a>
           </li>
         {% endfor %}
       </ul>
