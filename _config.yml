@@ -10,13 +10,16 @@ permalink: pretty
 highlighter: rouge
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
 
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.lazercube.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "lazercube.com" # the base hostname & protocol for your site, e.g. http://example.com
+lang: en
+permalink: /:categories/:title/
 
 title: Lazercube
 subtitle: Lazer
@@ -26,22 +29,17 @@ description:
 city: Winchester
 country: United Kingdom
 
-image: https://www.placehold.it/730x500
+github_url: https://github.com/LazerCube
+linkedin_url: https://www.linkedin.com/in/elliot-lunness-33b959192/
 
 # Social settings
-facebook_url:
-github_url: https://github.com/LazerCube
-gitlab_url:
-googleplus_url:
-instagram_url:
-linkedin_url:
-twitter_url:
+social:
+  name: Elliot Lunness
+  links:
+    - https://github.com/LazerCube
+    - https://www.linkedin.com/in/elliot-lunness-33b959192/
 
 #Sass settings
 sass:
     sass_dir: _sass
     style: :compressed
-
-#Gems
-gems:
-  - jekyll-auto-image

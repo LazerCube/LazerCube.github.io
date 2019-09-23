@@ -6,4 +6,6 @@
     <link rel="stylesheet" href="/css/nemisis-icons/style.css">
     <link rel="stylesheet" href="/css/progressive-image.css">
     <script src="/js/progressive-image.js"></script>
+    <meta itemprop="description" name="description" content="{% if page.about %}{{ page.about | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+    {% seo title=false %}
 </head>
