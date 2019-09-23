@@ -18,7 +18,7 @@ exclude:
 
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "lazercube.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lazercube.com" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en-GB
 permalink: /:categories/:title/
 
