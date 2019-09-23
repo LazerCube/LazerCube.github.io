@@ -5,7 +5,7 @@ author: Elliot
 tags:
 - Django
 - Python
-- SaSS
+- Sass
 - Web
 published: true
 summary: Social networking website written in python using the Django framework.

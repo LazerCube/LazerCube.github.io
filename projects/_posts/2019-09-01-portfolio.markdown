@@ -4,7 +4,7 @@ title: Portfolio Website
 author: Elliot
 tags:
 - Jekyll
-- SaSS
+- Sass
 - Web
 summary: My website portfolio.
 about: Website to present a showcase of my projects, skills and other information to help give people an idea of what I do. Written using Jekyll, SaSS and hosted on GitHub pages.
