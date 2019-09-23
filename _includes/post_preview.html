@@ -34,7 +34,7 @@
         </div>
 
         <a href="{{ post.url | prepend: site.baseurl }}" data-href="{{ post.image }}" class="progressive replace" rel="canonical">
-            <img src="{{ post.image_preview }}" class="preview" alt="image" />
+            <img src="{{ post.image_preview }}" class="preview" alt="{{ post.image_alt | default:'Image' }}" />
         </a>
 
         <!-- <a href="{{ post.url | prepend: site.baseurl }}"
