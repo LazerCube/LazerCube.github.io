@@ -11,6 +11,7 @@ highlighter: rouge
 gems:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -18,7 +19,7 @@ exclude:
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "lazercube.com" # the base hostname & protocol for your site, e.g. http://example.com
-lang: en
+lang: en-GB
 permalink: /:categories/:title/
 
 title: Lazercube
