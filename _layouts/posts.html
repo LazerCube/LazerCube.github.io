@@ -41,7 +41,15 @@ layout: default
       <div class="col-lg-3 offset-lg-1 col-xs-12 post-categories">
         <ul id="page-tags" class="list-unstyled">
           {% for item in page.tags %}
-            <li><a href="/tags/{{ item }}" title="View posts tagged with &quot;{{ item }}&quot;" rel="canonical">{{ item }}</a></li>
+          <li>
+            {% if page.taglink == nil or page.taglink %}
+            <a href="/tags/{{ item }}" title="View posts tagged with &quot;{{ item }}&quot;" rel="canonical">
+              {{ item }}
+            </a>
+            {% else %}
+              <span class="text-muted">{{ item }}</span>
+            {% endif%}
+          </li>
           {% endfor %}
         </ul>
       </div>
