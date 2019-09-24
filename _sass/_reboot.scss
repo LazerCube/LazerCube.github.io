@@ -64,7 +64,6 @@ img{
     border: 0;
 }
 
-
 //
 // ul/Li
 //
@@ -126,4 +125,12 @@ blockquote{
 
 blockquote>p{
 	font-size: 1em;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    color: $hr-color;
+    background-color: $hr-color;
+    margin: $hr-margin;
 }

@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: ReadyAbout
+title: Ready About
 author: Elliot
 tags: 
 - Django 
@@ -31,6 +31,8 @@ The UK has a large number of holiday boat rental yards many of which are small f
 
 So I decided to create ReadyAbout.co.uk, A invite only service that allows members to advertise their boats to a larger audience while providing them tangible metrics that will help them improve their business and gain information on the broader health and opportunities available in the industry in real-time.
 
+---
+
 ## Difficulties And Solutions
 
 ### Time Management and MVP
@@ -42,6 +44,8 @@ One of the main lessons I’ve learnt during the duration of this project is how
 </div>
 
 Since Implementing this change I’ve seen my productivity increase dramatically and progress towards getting a finished product steadily getting closer.
+
+---
 
 ## Notable Features
 
@@ -60,6 +64,8 @@ Since Implementing this change I’ve seen my productivity increase dramatically
 - **Mutiple docker configs** - For production and development
 - **Modern production Stack** - Ngnix + Gunicorn + Postgres
 - **Custom django admin theme**
+
+---
 
 ## Screenshots
 
