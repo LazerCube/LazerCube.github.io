@@ -54,7 +54,7 @@
           }
         }
       }
-    
+
       @include media-breakpoint-up(sm) {
         .nav-item {
           border: none!important;
@@ -66,8 +66,11 @@
           }  
         }
     
-        padding: $navbar-nav-padding;
+        padding: $navbar-nav-padding-md;
         float: right;
+      }
+      @include media-breakpoint-up(md) {
+        padding: $navbar-nav-padding;
       }
       @include clearfix;
     }
@@ -145,7 +148,11 @@
   }
 
   > span {
-    font-size: 3.75rem;
+    font-size: 3rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 3.75rem;
+    }
   }
 }
 
