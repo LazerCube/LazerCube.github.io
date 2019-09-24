@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-GB"><generator uri="https://jekyllrb.com/" version="3.4.0">Jekyll</generator><link href="https://lazercube.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lazercube.com/" rel="alternate" type="text/html" hreflang="en-GB" /><updated>2019-09-23T18:06:29+01:00</updated><id>https://lazercube.com/feed.xml</id><title type="html">Lazercube</title><entry><title type="html">Portfolio Website</title><link href="https://lazercube.com/projects/portfolio/" rel="alternate" type="text/html" title="Portfolio Website" /><published>2019-09-01T00:00:00+01:00</published><updated>2019-09-01T00:00:00+01:00</updated><id>https://lazercube.com/projects/portfolio</id><content type="html" xml:base="https://lazercube.com/projects/portfolio/">&lt;h2 id=&quot;notable-features&quot;&gt;Notable Features&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-GB"><generator uri="https://jekyllrb.com/" version="3.4.0">Jekyll</generator><link href="https://lazercube.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lazercube.com/" rel="alternate" type="text/html" hreflang="en-GB" /><updated>2019-09-24T19:02:17+01:00</updated><id>https://lazercube.com/feed.xml</id><title type="html">Lazercube</title><entry><title type="html">Ready About</title><link href="https://lazercube.com/projects/readyabout/" rel="alternate" type="text/html" title="Ready About" /><published>2019-09-01T00:00:00+01:00</published><updated>2019-09-01T00:00:00+01:00</updated><id>https://lazercube.com/projects/readyabout</id><content type="html" xml:base="https://lazercube.com/projects/readyabout/">&lt;h2 id=&quot;about&quot;&gt;About&lt;/h2&gt;
+
+&lt;p&gt;The UK has a large number of holiday boat rental yards many of which are small family run operations running WordPress sites with 3rd party booking systems. However, many still don’t have a great online presence for reasons such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Poor SEO&lt;/li&gt;
+  &lt;li&gt;Lack of technical knowledge&lt;/li&gt;
+  &lt;li&gt;Underestimation of a online presence&lt;/li&gt;
+  &lt;li&gt;Unwillingness to invest both time and money to achieve&lt;/li&gt;
+  &lt;li&gt;Limitations with their current WordPress sites&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So I decided to create ReadyAbout.co.uk, A invite only service that allows members to advertise their boats to a larger audience while providing them tangible metrics that will help them improve their business and gain information on the broader health and opportunities available in the industry in real-time.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;difficulties-and-solutions&quot;&gt;Difficulties And Solutions&lt;/h2&gt;
+
+&lt;h3 id=&quot;time-management-and-mvp&quot;&gt;Time Management and MVP&lt;/h3&gt;
+
+&lt;p&gt;One of the main lessons I’ve learnt during the duration of this project is how important it is to manage my time and what to spend my time on. At the start of the project I kept all my ideas, features and to-do list in my head which caused the project to feel overwhelming, leading to months of very little progress. I’d spend weeks working on tangent ideas for the project but never really got any closer to having a finished product. To solve this I’ve switched to using a simple Trello board to keep track of the key tasks that I need to-do in order to get the product to market and keep me on track.&lt;/p&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img class=&quot;gallery-img&quot; src=&quot;/assets/img/posts/readyabout/trello-screenshot.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Since Implementing this change I’ve seen my productivity increase dramatically and progress towards getting a finished product steadily getting closer.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;notable-features&quot;&gt;Notable Features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Task schedular&lt;/strong&gt; - Rambitmq + Celery&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Generic promotion system&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Related object scoring system&lt;/strong&gt; - Gives each object a relative rank compared to other objects of the same type. Score considers the number of unique impressions an object is getting, related objects score, how new the item as well as others to ensure that it’s fair but competitive.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Support for 3rd party API’s&lt;/strong&gt; - Authorization support for several different request authorization types including, simple tokens and OAuth2&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Referral link signup&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Login&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CRUD functions&lt;/strong&gt; - Allows members to manage their boats, boatyards and account. (Not using Django admin)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Web admin CRUD&lt;/strong&gt; - Allows for admin functions, tasks and management (Using Django Admin)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Metric Tracking&lt;/strong&gt; - Daily, weekly and monthly tracking of data&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Local and global filtering by URL&lt;/strong&gt; - Local views for each location, acting like an independent website for that location while still being on the same system. Enabling local filtering of that locations boatyards, news, area information, FAQ’s, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Template switching&lt;/strong&gt; - Switch templates for object based on currently viewed location allowing for a custom look and feel for each location.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Custom CSS framework&lt;/strong&gt; - Built off PureCSS&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mutiple docker configs&lt;/strong&gt; - For production and development&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Modern production Stack&lt;/strong&gt; - Ngnix + Gunicorn + Postgres&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Custom django admin theme&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h2&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img class=&quot;gallery-img&quot; src=&quot;/assets/img/posts/readyabout/home-dev-screenshot.png&quot; /&gt;
+    &lt;img class=&quot;gallery-img&quot; src=&quot;/assets/img/posts/readyabout/boat-list-old-screenshot.png&quot; /&gt;
+    &lt;img class=&quot;gallery-img&quot; src=&quot;/assets/img/posts/readyabout/boat-detail-dev-screenshot.png&quot; /&gt;
+&lt;/div&gt;</content><author><name>Elliot</name></author><category term="Django" /><category term="Python" /><category term="CSS" /><category term="Docker" /><category term="Rabbitmq" /><category term="Nginx" /><category term="Web" /><summary type="html">About</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://lazercube.com/assets/img/posts/readyabout/readyabout_thumbnail.png" /></entry><entry><title type="html">Portfolio Website</title><link href="https://lazercube.com/projects/portfolio/" rel="alternate" type="text/html" title="Portfolio Website" /><published>2019-09-01T00:00:00+01:00</published><updated>2019-09-01T00:00:00+01:00</updated><id>https://lazercube.com/projects/portfolio</id><content type="html" xml:base="https://lazercube.com/projects/portfolio/">&lt;h2 id=&quot;notable-features&quot;&gt;Notable Features&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Static&lt;/strong&gt; - Jekyll utilizes Markdown, Liquid, HTML &amp;amp; CSS to generate a static site read for deployment.&lt;/li&gt;
@@ -38,7 +96,16 @@
   &lt;li&gt;&lt;strong&gt;View 3D and manipulate 3D point data&lt;/strong&gt; – Top/Side/Front sliced views.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Applies Histogram equalization&lt;/strong&gt; - All data making up the models are saved to a corrisponding csv file.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Maximum Intensity Projection&lt;/strong&gt; (MIP)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Elliot</name></author><category term="Java" /><category term="JavaFX" /><summary type="html">Notable Features</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://lazercube.com/assets/img/posts/ct_scan_viewer/ct_scan_viewer_thumbnail.jpg" /></entry><entry><title type="html">Social network</title><link href="https://lazercube.com/projects/social-network/" rel="alternate" type="text/html" title="Social network" /><published>2016-03-13T00:00:00+00:00</published><updated>2016-03-13T00:00:00+00:00</updated><id>https://lazercube.com/projects/social-network</id><content type="html" xml:base="https://lazercube.com/projects/social-network/">&lt;h2 id=&quot;notable-features&quot;&gt;Notable Features&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Elliot</name></author><category term="Java" /><category term="JavaFX" /><summary type="html">Notable Features</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://lazercube.com/assets/img/posts/ct_scan_viewer/ct_scan_viewer_thumbnail.jpg" /></entry><entry><title type="html">Social Network REST API</title><link href="https://lazercube.com/projects/ceres-api/" rel="alternate" type="text/html" title="Social Network REST API" /><published>2017-11-07T00:00:00+00:00</published><updated>2017-11-07T00:00:00+00:00</updated><id>https://lazercube.com/projects/ceres-api</id><content type="html" xml:base="https://lazercube.com/projects/ceres-api/">&lt;h2 id=&quot;notable-features&quot;&gt;Notable Features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Application authentication&lt;/strong&gt; - Allows 3rd partys applications to use the api.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;User authentication&lt;/strong&gt; - Using Oauth2&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;User Acounts&lt;/strong&gt; - Create, Update, Delete user accounts.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Friend System&lt;/strong&gt; - Become friends with another user&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Messaging System&lt;/strong&gt; - Allows user to message in chat rooms.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;User Relationships&lt;/strong&gt; - Any information related to two users. This might include. blocking, muting, marked as spam, notification pref, can pm, etc&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Elliot</name></author><category term="Python" /><category term="Django" /><category term="Django Rest" /><category term="Oauth2" /><category term="Bootstrap" /><category term="Web" /><summary type="html">Notable Features</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://lazercube.com/assets/img/posts/ceres_api/social_network_api_thumbnail.jpg" /></entry><entry><title type="html">Social network</title><link href="https://lazercube.com/projects/social-network/" rel="alternate" type="text/html" title="Social network" /><published>2016-03-13T00:00:00+00:00</published><updated>2016-03-13T00:00:00+00:00</updated><id>https://lazercube.com/projects/social-network</id><content type="html" xml:base="https://lazercube.com/projects/social-network/">&lt;h2 id=&quot;notable-features&quot;&gt;Notable Features&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Login / Registration&lt;/strong&gt;&lt;/li&gt;
