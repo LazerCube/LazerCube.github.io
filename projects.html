@@ -4,16 +4,20 @@ title: Projects
 site_tags: true
 ---
 
-{% for current_post in site.categories.projects  %}
-    {% assign loopindex = forloop.index | modulo: 2 %}
+{% if site.categories.projects %}
+    {% for current_post in site.categories.projects  %}
+        {% assign loopindex = forloop.index | modulo: 2 %}
 
-    {% if loopindex  == 1 or forloop.first %}
-        <div class="row">   
-    {% endif %}
+        {% if loopindex  == 1 or forloop.first %}
+            <div class="row">   
+        {% endif %}
 
-    {% include post_preview.html post=current_post size='m' %}
+        {% include post_preview.html post=current_post size='m' %}
 
-    {% if loopindex != 1 or forloop.last %}
-        </div>
-    {% endif %}
-{% endfor %}
+        {% if loopindex != 1 or forloop.last %}
+            </div>
+        {% endif %}
+    {% endfor %}
+{% else %}
+    <p class="center-text" style="margin: 4rem 0;"><b>Hmmm,</b> looks like theres nothing here at the moment.</p>
+{% endif %}
