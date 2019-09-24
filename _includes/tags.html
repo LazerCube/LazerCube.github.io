@@ -1,0 +1,11 @@
+<ul class="list-unstyled">
+    {% for tag in site.tags  %}
+    <li class="tag">
+        <a href="/tags/{{ tag[0] }}" title="View posts tagged with &quot;{{ tag[0] }}&quot;" rel="canonical">
+            <span>
+                {{ tag[0] }}
+            </span>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
