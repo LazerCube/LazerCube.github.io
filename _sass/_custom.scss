@@ -65,3 +65,18 @@
     @include clearfix;
   }
 }
+
+ul#page-tags {
+  li {
+    display: block;
+
+    @include media-breakpoint-down(md) {
+      display: inline-block;
+      margin: 0 0.5em 0.5em 0;
+    }
+    a {
+      color: #a5a5a5;
+      // text-decoration: none;
+    }
+  }
+}

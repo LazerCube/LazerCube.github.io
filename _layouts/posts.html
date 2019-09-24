@@ -39,9 +39,9 @@ layout: default
       </div>
       {% endif %}
       <div class="col-lg-3 offset-lg-1 col-xs-12 post-categories">
-        <ul class="list-unstyled">
+        <ul id="page-tags" class="list-unstyled">
           {% for item in page.tags %}
-            <li class="text-muted">{{ item }}</li>
+            <li><a href="/tags/{{ item }}" title="View posts tagged with &quot;{{ item }}&quot;" rel="canonical">{{ item }}</a></li>
           {% endfor %}
         </ul>
       </div>
