@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: ReadyAbout (WIP)
+title: ReadyAbout
 author: Elliot
 tags: 
 - Django 
@@ -10,7 +10,7 @@ tags:
 - Rabbitmq
 - Nginx
 - Web
-published: false
+published: true
 about: Created to give small rental boatyards around the UK a simple platform to advertise their boats against others and to give them metrics and marketing information in order to help them increase their holiday bookings.
 summary: Referral based boat rental advertising and marketing system.
 image: /assets/img/posts/readyabout/readyabout_thumbnail.png
@@ -21,7 +21,7 @@ link: readyabout.co.uk
 
 ## About
 
-The UK has a large number of holiday boat rental yards many of which are small family run operations running a WordPress site with a 3rd party booking system. However, many still don’t have a great online presence for reasons such as:
+The UK has a large number of holiday boat rental yards many of which are small family run operations running WordPress sites with 3rd party booking systems. However, many still don’t have a great online presence for reasons such as:
 
 - Poor SEO
 - Lack of technical knowledge
@@ -29,9 +29,9 @@ The UK has a large number of holiday boat rental yards many of which are small f
 - Unwillingness to invest both time and money to achieve
 - Limitations with their current WordPress sites
 
-So I decided to create ReadyAbout.com, A invite only service that allows members to advertise their boats to a larger audience while providing them tangible metrics that will help them improve their business and gain information on the broader health and opportunities available in the industry in real-time.
+So I decided to create ReadyAbout.co.uk, A invite only service that allows members to advertise their boats to a larger audience while providing them tangible metrics that will help them improve their business and gain information on the broader health and opportunities available in the industry in real-time.
 
-## Difficulties And Solutions (WIP)
+## Difficulties And Solutions
 
 ### Time Management and MVP
 
@@ -42,7 +42,6 @@ One of the main lessons I’ve learnt during the duration of this project is how
 </div>
 
 Since Implementing this change I’ve seen my productivity increase dramatically and progress towards getting a finished product steadily getting closer.
-
 
 ## Notable Features
 
