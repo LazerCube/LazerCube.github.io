@@ -1,6 +1,7 @@
 ---
 layout: posts
-title: Social network
+title: Lazercube| Social Network Django Project
+heading: Django Project - Social Network
 tags:
 - Django
 - Python

@@ -1,6 +1,7 @@
 ---
 layout: posts
-title: Image processing (simple filters)
+title: Lazercube| Java Image Processing
+heading: Java Project - Image Processing
 tags:
 - Java
 - JavaFX

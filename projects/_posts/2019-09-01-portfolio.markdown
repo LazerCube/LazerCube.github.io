@@ -1,11 +1,12 @@
 ---
 layout: posts
-title: Portfolio Website
+title: "Lazercube| Lazercube.com - My developer portfolio project"
+heading: Portfolio Website - Lazercube.com
 tags:
 - Jekyll
 - Sass
 - Web
-summary: My website portfolio.
+summary: My developer portfolio.
 description: Website to present a showcase of my projects, skills and other information to help give people an idea of what I do. Written using Jekyll, SaSS and hosted on GitHub pages.
 source: https://github.com/LazerCube/lazercube.github.io/tree/sources
 link: lazercube.com

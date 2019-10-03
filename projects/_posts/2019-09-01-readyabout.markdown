@@ -1,6 +1,7 @@
 ---
 layout: posts
-title: Ready About
+title: "Lazercube| Boat Advertising And Marketing - ReadyAbout.co.uk"
+heading: Boat Advertising And Marketing - ReadyAbout.co.uk
 tags: 
 - Django 
 - Python
@@ -10,7 +11,7 @@ tags:
 - Nginx
 - Web
 published: true
-description: Created to give small rental boatyards around the UK a simple platform to advertise their boats against others and to give them metrics and marketing information in order to help them increase their holiday bookings.
+description: Ready About was created to give small rental boatyards around the UK a simple platform to advertise their boats against others and to give them metrics and marketing information in order to help them increase their holiday bookings.
 summary: Referral based boat rental advertising and marketing system.
 image: /assets/img/posts/readyabout/readyabout_thumbnail.png
 image_preview: /assets/img/posts/readyabout/readyabout_thumbnail_preview.png

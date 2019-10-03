@@ -1,12 +1,13 @@
 ---
 layout: posts
-title: Tawelib
+title: Lazercube| Libary management system - Tawelib
+heading: Libary management system - Tawelib
 tags:
 - Java
 - JavaFX
 published: true
 description: Created for a university software development unit along with other students. We had to create a simple library management system that was to be run on a single machine with data being persistent between runtimes. We weren't allow to use a database, hence the weird .csv data loading. Written in Java with JavaFx for the UI.
-summary: Libary managemnt system
+summary: Libary management system
 image: /assets/img/posts/tawelib/tawelib_thumbnail.jpg
 image_preview: /assets/img/posts/tawelib/tawelib_thumbnail_preview.jpg
 source: https://github.com/LazerCube/tawelib

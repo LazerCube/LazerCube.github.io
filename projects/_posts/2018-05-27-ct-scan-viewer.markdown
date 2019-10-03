@@ -1,6 +1,7 @@
 ---
 layout: posts
-title: CT Scan Viewer
+title: Lazercube| Java Project - CT Scan Viewer
+heading: Java Project - CT Scan Viewer
 tags:
 - Java
 - JavaFX

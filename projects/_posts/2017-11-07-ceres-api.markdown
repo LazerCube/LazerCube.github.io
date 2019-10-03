@@ -1,6 +1,7 @@
 ---
 layout: posts
-title: Social Network REST API
+title: Lazercube| Django REST Project - Social Network API
+heading: Django REST Project - Social Network API 
 tags:
 - Python
 - Django
