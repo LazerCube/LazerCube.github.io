@@ -2,6 +2,6 @@
 
 <a href="{{ file.path }}" title="{{ filename }}"></a> -->
 
-<a href="{{ link_url | prepend: site.baseurl | default: '#' }}" data-href="{% include get_image_url.html %}" class="progressive replace {{ img_class }}">
+<a href="{{ link_url | prepend: site.baseurl | default: '#' }}" data-href="{% include get_image_url.html %}" class="progressive replace {{ img_class }}" rel="canonical">
     <img src='{% include get_image_url.html get_params="&w=50&h=50&output=jpg&q=85&t=square&fit=coverblur=5" %}' alt="{{ img_name | default: 'alt text' }}" title="{{ img_name | default 'Image title' }}" class="preview"/>
 </a>
