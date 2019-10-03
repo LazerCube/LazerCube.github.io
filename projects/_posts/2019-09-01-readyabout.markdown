@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: Ready About
-author: Elliot
 tags: 
 - Django 
 - Python

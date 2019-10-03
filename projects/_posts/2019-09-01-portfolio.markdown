@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: Portfolio Website
-author: Elliot
 tags:
 - Jekyll
 - Sass

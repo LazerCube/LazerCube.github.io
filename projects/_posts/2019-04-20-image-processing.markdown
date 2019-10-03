@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: Image processing (simple filters)
-author: Elliot
 tags:
 - Java
 - JavaFX

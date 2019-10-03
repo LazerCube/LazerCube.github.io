@@ -26,12 +26,17 @@ title: Lazercube
 subtitle: Lazer
 name: Elliot Lunness
 email: info@lazercube.com
-description:
-city: Winchester
 country: United Kingdom
 
 github_url: https://github.com/LazerCube
 linkedin_url: https://www.linkedin.com/in/elliot-lunness-33b959192/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      author: Elliot Lunness
 
 # Social settings
 social:

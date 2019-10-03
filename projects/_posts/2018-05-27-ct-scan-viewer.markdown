@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: CT Scan Viewer
-author: Elliot
 tags:
 - Java
 - JavaFX

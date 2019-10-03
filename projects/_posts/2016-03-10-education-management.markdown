@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: Education management website
-author: Elliot
 tags:
 - Django
 - Python

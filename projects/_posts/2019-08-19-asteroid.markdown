@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: Asteroid Game
-author: Elliot
 tags:
 - Python
 - Pygame

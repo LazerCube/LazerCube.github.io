@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: Tawelib
-author: Elliot
 tags:
 - Java
 - JavaFX
@@ -11,7 +10,6 @@ summary: Libary managemnt system
 image: /assets/img/posts/tawelib/tawelib_thumbnail.jpg
 image_preview: /assets/img/posts/tawelib/tawelib_thumbnail_preview.jpg
 source: https://github.com/LazerCube/tawelib
-
 ---
 
 ## Notable Features

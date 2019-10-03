@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: Social network
-author: Elliot
 tags:
 - Django
 - Python
