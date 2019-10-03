@@ -2,7 +2,7 @@
 layout: default
 title: "Lazercube| About Me"
 heading: About Me
-description: I'm a full stack web developer currently currently based in the south of England. On this site you'll be able to find out more about what I've done, current projects, my services and me.
+description: I'm a full stack web developer currently currently based in the south of England. I created the brand lazercube for myself 4 years ago to showcase what I can offer. On this site you'll be able to find out more about what I've done, current projects, my services and me.
 ---
 
 <div id="about-skills" class="col-xs-12 col-md-4">
@@ -14,13 +14,16 @@ description: I'm a full stack web developer currently currently based in the sou
     <div id="about-intro">
         <h2>About Me</h1>
         <p>{{ page.description }}</p>
+        <p>
+            You can also send me an email at: <a href='mailto:{{ site.email }}' rel='nofollow' >{{ site.email }}</a>
+        </p>
     </div>
 
     <div id="about-github">
         <h2><span class="icon-github"></span> Github</h2>
         <p>
             Check out my Github profile!
-            You can see some of the things I've worked on either at my <a href="/projects/">project page</a> or over on my <a href="https://github.com/LazerCube">Github</a>
+            You can see some of the things I've worked on either at my <a href="/projects/" rel="canonical">project page</a> or over on my <a href="{{ site.github_url }}" target="_blank" rel="canonical noopener">Github</a>
         </p>
     </div>
 </div>
