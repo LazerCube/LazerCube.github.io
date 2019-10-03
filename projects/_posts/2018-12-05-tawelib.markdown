@@ -6,7 +6,7 @@ tags:
 - Java
 - JavaFX
 published: true
-about: Created for a university software development unit along with other students. We had to create a simple library management system that was to be run on a single machine with data being persistent between runtimes. We weren't allow to use a database, hence the weird .csv data loading. Written in Java with JavaFx for the UI.
+description: Created for a university software development unit along with other students. We had to create a simple library management system that was to be run on a single machine with data being persistent between runtimes. We weren't allow to use a database, hence the weird .csv data loading. Written in Java with JavaFx for the UI.
 summary: Libary managemnt system
 image: /assets/img/posts/tawelib/tawelib_thumbnail.jpg
 image_preview: /assets/img/posts/tawelib/tawelib_thumbnail_preview.jpg

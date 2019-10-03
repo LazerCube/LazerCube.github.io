@@ -9,7 +9,7 @@ tags:
 - Web
 published: true
 summary: Social networking website written in python using the Django framework.
-about: Created when I was first learning Django and web design, this simple social network allowed me to learn about python packages, AJAX request and gain a good understanding of the underlying code and methodologies behind most modern websites, including MVC, RESTful API’s (Which I would proceed to explore further) and data normalization.
+description: Created when I was first learning Django and web design, this simple social network allowed me to learn about python packages, AJAX request and gain a good understanding of the underlying code and methodologies behind most modern websites, including MVC, RESTful API’s (Which I would proceed to explore further) and data normalization.
 image: /assets/img/posts/aurora/aurora_thumbnail.jpg
 image_preview: /assets/img/posts/aurora/aurora_thumbnail_preview.jpg
 source: https://github.com/LazerCube/aurora

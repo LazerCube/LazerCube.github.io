@@ -7,7 +7,7 @@ tags:
 - Sass
 - Web
 summary: My website portfolio.
-about: Website to present a showcase of my projects, skills and other information to help give people an idea of what I do. Written using Jekyll, SaSS and hosted on GitHub pages.
+description: Website to present a showcase of my projects, skills and other information to help give people an idea of what I do. Written using Jekyll, SaSS and hosted on GitHub pages.
 source: https://github.com/LazerCube/lazercube.github.io/tree/sources
 link: lazercube.com
 image:  /assets/img/posts/portfoilo/portfolio_thumnail.png

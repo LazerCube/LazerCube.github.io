@@ -10,7 +10,7 @@ layout: default
       </div>
     </div>
     <div class="row">
-      {% if page.about %}
+      {% if page.description %}
       <div class="col-lg-8 col-xs-12">
           {% if page.link or page.source %}
             <ul class="post-links">
@@ -27,7 +27,7 @@ layout: default
           {% endif %}
 
           <p class="post-about">
-            {{ page.about }}
+            {{ page.description }}
           </p>
 
           {% if page.summary %}

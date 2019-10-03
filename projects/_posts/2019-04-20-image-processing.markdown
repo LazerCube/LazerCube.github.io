@@ -5,7 +5,7 @@ author: Elliot
 tags:
 - Java
 - JavaFX
-about: A simple application I created to gain a better understanding of how images are stored on a computer and how to do basic manipulations on them. Written in java using JavaFx for the UI.
+description: A simple application I created to gain a better understanding of how images are stored on a computer and how to do basic manipulations on them. Written in java using JavaFx for the UI.
 summary: Simple image filters.
 image: /assets/img/posts/image_filters/image_filter_thumbnail.jpg
 image_preview: /assets/img/posts/image_filters/image_filter_thumbnail_preview.jpg

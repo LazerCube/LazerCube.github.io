@@ -7,7 +7,7 @@ tags:
 - JavaFX
 published: true
 summary: Application to view CT scan data to aid medical professionals.
-about: Created for a university graphical programming unit to carry out manipulations and to display an image from a CT Scan. Written in Java using JavaFx for the UI.
+description: Created for a university graphical programming unit to carry out manipulations and to display an image from a CT Scan. Written in Java using JavaFx for the UI.
 source: https://github.com/LazerCube/ct_scan_viewer
 image:  /assets/img/posts/ct_scan_viewer/ct_scan_viewer_thumbnail.jpg
 image_preview: /assets/img/posts/ct_scan_viewer/ct_scan_viewer_thumbnail_preview.jpg
