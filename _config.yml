@@ -23,7 +23,6 @@ lang: en-GB
 permalink: /:categories/:title/
 
 title: Lazercube
-subtitle: Lazer
 name: Elliot Lunness
 email: contactme@lazercube.com
 country: United Kingdom
