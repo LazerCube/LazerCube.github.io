@@ -19,7 +19,7 @@ bundle exec jekyll serve
 ## Publishing to github pages
 
 1. `git checkout sources`
-1. `jekyll build`, build site
+1. `JEKYLL_ENV=production bundle exec jekyll build`, build site
 1. `cd _site`, move to site directory
 1. `touch .nojekyll`, this file tells gh-pages that there is no need to build
 1. `git init`, create new repository
