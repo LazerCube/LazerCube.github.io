@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Lazercube| Home
 description: Hi, I'm Elliot Lunness. I'm a full stack web developer currently based in the south of England. I make web products, usually with Django.
 seo:
     links:
