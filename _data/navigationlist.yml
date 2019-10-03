@@ -1,4 +1,4 @@
-navigation_brand: <span class="icon-LazerCubeLogo"></span>
+navigation_brand: <span aria-label="Lazercube Logo" class="icon-LazerCubeLogo"></span>
 pages:
 
 - title: Home
