@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Lazercube| Lazercube.com - My developer portfolio project"
+title: "Lazercube | My developer portfolio project - Lazercube.com"
 heading: Portfolio Website - Lazercube.com
 tags:
 - Jekyll

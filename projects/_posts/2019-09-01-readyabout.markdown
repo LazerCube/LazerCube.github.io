@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Lazercube| Boat Advertising And Marketing - ReadyAbout.co.uk"
+title: "Lazercube | Boat Advertising And Marketing - ReadyAbout.co.uk"
 heading: Boat Advertising And Marketing - ReadyAbout.co.uk
 tags: 
 - Django 

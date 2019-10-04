@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Lazercube| Django Project - Education Management Website
+title: Lazercube | Django Project - Education Management Website
 heading: Django Project - Education Management Website
 tags:
 - Django

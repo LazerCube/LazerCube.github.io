@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Lazercube| Libary management system - Tawelib
+title: Lazercube | Libary management system - Tawelib
 heading: Libary management system - Tawelib
 tags:
 - Java

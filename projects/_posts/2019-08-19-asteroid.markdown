@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Lazercube| Pygame Project - Asteroid Game 
+title: Lazercube | Pygame Project - Asteroid Game 
 heading: Pygame Project - Asteroid Game 
 tags:
 - Python

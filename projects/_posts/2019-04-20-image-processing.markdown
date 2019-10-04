@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Lazercube| Java Image Processing
+title: Lazercube | Java Image Processing
 heading: Java Project - Image Processing
 tags:
 - Java
