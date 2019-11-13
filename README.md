@@ -2,6 +2,8 @@
 
 [Live verison](https://lazercube.com/)
 
+[Source Code](https://github.com/LazerCube/lazercube.github.io/tree/sources)
+
 ## Prerequisites
 
 - [Ruby](https://www.ruby-lang.org/en/downloads/) - Jekyll is a Ruby Gem that so Ruby is needed.
