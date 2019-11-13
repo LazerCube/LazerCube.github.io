@@ -9,5 +9,5 @@ seo:
 ---
 
 Hi, I'm <span class="oblue">{{ site.name }}.</span><br>
-I'm a full stack web developer currently based in the south of England. I make web products, usually with Django.
+I'm a software developer currently based in the south of England. I make web products, usually with Django.
 <a href='mailto:{{ site.email }}' rel='nofollow' >Say Hello</a>
