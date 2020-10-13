@@ -16,7 +16,6 @@ summary: Referral based boat rental advertising and marketing system.
 image: /assets/img/posts/readyabout/readyabout_thumbnail.png
 image_preview: /assets/img/posts/readyabout/readyabout_thumbnail_preview.png
 source: closed
-link: readyabout.co.uk
 ---
 
 ## About
